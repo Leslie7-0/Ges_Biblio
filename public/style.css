@@ -1,0 +1,404 @@
+body {  
+    font-family: 'Arial', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #e2d4b6; /* Fond couleur bois/pâle */  
+}  
+
+header {  
+    width: 100%;  
+}  
+
+.top-bar {  
+    background-color: #ffffff; /* Barre supérieure blanche */  
+    padding: 5px 10px;  
+    display: flex;  
+    justify-content: flex-start;  
+}  
+
+.btn-header {  
+    background-color: #007bff; /* Bleu pour le bouton Ajouter */  
+    color: white;  
+    padding: 3px 15px;  
+    text-decoration: none;  
+    border-radius: 5px;  
+    transition: background-color 0.3s;  
+}  
+
+.btn-header:hover {  
+    background-color: #0056b3; /* Bleu foncé au survol */  
+}  
+
+.separator {  
+    height: 4px; /* Hauteur de la barre de séparation */  
+    background-color: #e2d4b6; /* Couleur grise de séparation */  
+    margin: 5px; /* Aucune marge pour ajuster le positionnement */  
+}  
+
+.title-bar {  
+    background-color: #ffffff; /* Barre de titre blanche */  
+    color: black;  
+    text-align: center;  
+    padding: 20px 0;  
+}  
+
+h1 {  
+    margin: 0;  
+    font-size: 2.5em;  
+}  
+
+main {  
+    padding: 20px;  
+}  
+
+.grid-container {  
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 20px;  
+}  
+
+.card {  
+    background: #ffffff; /* Fond blanc pour les cartes */  
+    border: 1px solid #000; /* Bordure noire pour imiter le style de l'image */  
+    border-radius: 10px;  
+    text-align: left; /* Aligne le texte à gauche */  
+    padding: 20px;  
+    position: relative; /* Permet d’utiliser positionnement relatif pour le bouton */  
+    transition: transform 0.2s;  
+} 
+
+.card:hover {  
+    transform: scale(1.05); /* Légère augmentation au survol */  
+}  
+
+.card img {  
+    max-width: 80px; /* Ajustement de la taille de l'image */  
+    height: auto;  
+} 
+ 
+
+h2 {  
+    margin: 15px 0 10px;  
+    font-size: 1.5em;  
+}  
+
+p {  
+    font-size: 0.9em;  
+    color: #555;  
+}  
+
+.btn {  
+    display: inline-block;  
+    background-color: #007bff; /* Bleu pour les boutons des cartes */  
+    color: white;  
+    padding: 5px 15px;  
+    text-decoration: none;  
+    border-radius: 5px;  
+    margin-top: 10px; 
+     
+}  
+
+.btn:hover {  
+    background-color: #0056b3; /* Bleu foncé au survol */  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 10px 0;  
+    background: #343a40; /* Couleur sombre pour le pied de page */  
+    color: #fff;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}
+
+
+
+/* PAGE D'AUTHENTIFICATION */
+.auth-container {  
+    max-width: 400px;  
+    margin: 100px auto; /* Centrer verticalement et horizontalement */  
+    background-color: #ffffff; /* Fond blanc pour le formulaire */  
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    text-align: center;  
+}  
+
+h1 {  
+    font-size: 2.5em;  
+    margin: 0 0 10px;  
+}  
+
+h2 {  
+    font-size: 1.8em;  
+    margin: 20px 0 10px;  
+}  
+
+p {  
+    margin-bottom: 20px;  
+    color: #555;  
+}  
+
+.auth-form {  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+label {  
+    text-align: left;  
+    margin: 10px 0 5px;  
+}  
+
+input[type="email"],  
+input[type="password"] {  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    margin-bottom: 15px;  
+}  
+
+input[type="email"]:focus,  
+input[type="password"]:focus {  
+    border-color: #007bff; /* Bordure bleue au focus */  
+}  
+
+.btn-auth {  
+    background-color: #007bff; /* Couleur du bouton */  
+    color: white;  
+    padding: 10px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+
+.btn-auth:hover {  
+    background-color: #0056b3; /* Couleur au survol */  
+}  
+
+
+
+/* listes lecteur*/
+  
+.lecteur{
+    background-color: #ffffff; /* Barre de titre blanche */  
+    color: black;  
+    text-align: center;  
+    padding: 20px 0; 
+}
+h1 {  
+    font-size: 2.5em;  
+    color: #333;  
+    margin-bottom: 10px; /* Ajout de l'espacement sous le titre */  
+}  
+
+h3 {  
+    text-align: center;  
+    margin: 20px 0;  
+    font-weight: bold; /* Mettre le titre en gras */  
+}  
+
+.button-container {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.btn {  
+    display: inline-block;  
+    padding: 10px 15px;  
+    color: white;  
+    border-radius: 5px;  
+    text-decoration: none;  
+    margin: 0 5px;  
+    font-weight: bold;  
+}  
+
+
+.ajouter {  
+    background-color: #28a745; /* Vert pour Ajouter */  
+}  
+
+.retour {  
+    background-color: #007bff; /* Bleu pour Retour */  
+}  
+
+.table-container {  
+    background-color: #ffffff; /* Fond blanc pour le tableau */  
+    border-radius: 10px; /* Coins arrondis */  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */  
+    padding: 15px; /* Ajout de padding autour du tableau */  
+    margin: 0 auto; /* Centrer le tableau */  
+    width: 90%; /* Largeur maximale du tableau */  
+}  
+
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    margin-bottom: 20px;  
+}  
+
+thead {  
+    background-color: #0066d2; /* Couleur de l'en-tête du tableau */  
+    color: white;  
+}  
+
+th, td {  
+    padding: 10px;  
+    border: 1px solid #ddd;  
+    text-align: center; /* Centre le texte */  
+}  
+
+tbody tr:hover {  
+    background-color: #f1f1f1; /* Surbrillance au survol des lignes */  
+}  
+
+.btn.modifier {  
+    background-color: #007bff; /* Bleu pour Modifier */  
+}  
+
+.btn.supprimer {  
+    background-color: #dc3545; /* Rouge pour Supprimer */  
+}  
+
+.btn.modifier, .btn.supprimer {  
+    padding: 5px 10px; /* Ajuster le padding des boutons d'action */  
+    text-decoration: none; /* Pas de soulignement */  
+    color: white; /* Couleur du texte sur les boutons */  
+    border-radius: 5px; /* Coins arrondis pour les boutons */  
+    margin: 0 2px; /* Marges entre les boutons */  
+}
+
+/*Ajout lecteur*/
+h1 {  
+    font-size: 2.5em;  
+    color: #333;  
+    margin: 0;  
+}  
+
+h3 {  
+    text-align: center;  
+    margin: 20px 0;  
+    font-weight: bold;  
+}  
+
+.button-container {  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.btn {  
+    display: inline-block;  
+    padding: 10px 15px;  
+    color: white;  
+    border-radius: 5px;  
+    text-decoration: none;  
+    margin: 0 5px;  
+    font-weight: bold;  
+}  
+
+.retour {  
+    background-color: #007bff;  
+}  
+
+.form-container {  
+    background-color: #ffffff;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    padding: 20px;  
+    margin: 20px auto;  
+    width: 90%;  
+}  
+
+.form-row {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-bottom: 15px;  
+}  
+
+.form-group {  
+    flex: 1; /* Chaque champ prend une part égale de l'espace disponible */  
+    margin-right: 5px; /* Espacement entre les colonnes */  
+}  
+
+.form-group:last-child {  
+    margin-right: 0; /* Supprime la marge pour le dernier groupe pour éviter un débordement */  
+}  
+
+label {  
+    display: block;  
+    margin-bottom: 5px;  
+    font-weight: bold;  
+}  
+
+input[type="text"],  
+input[type="date"],  
+input[type="tel"],  
+select {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+}  
+
+button.enregistrer {  
+    background-color: #28a745;  
+    color: white;  
+    padding: 10px 15px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-weight: bold;  
+    display: block;  
+    margin: 20px auto;  
+}  
+
+button.enregistrer:hover {  
+    background-color: #218838;  
+} 
+
+.profil-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.profil-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profil-container p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.connected {
+    color: green;
+    font-weight: bold;
+}
+
+.other-bibliothecaires {
+    margin-top: 30px;
+}
+
+.other-bibliothecaires table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.other-bibliothecaires th,
+.other-bibliothecaires td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.other-bibliothecaires th {
+    background-color: #f2f2f2;
+}
